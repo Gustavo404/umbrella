@@ -5,3 +5,38 @@
 Turn keywords into lists of possible profiles on websites.
 <br>
 (or anything you need similar to this)
+
+Dependencias
+----
+
+A unica dependencia do Umbrella é o crunch
+
+	sudo apt install crunch -y
+
+Uso
+----
+
+	bash umbrella.sh
+
+#### Informe as palavras chave:
+ex:.	marcio gustavo 404 <br>
+Você terá uma lista com as combinações similar a essa:
+
+	404gustavomarcio
+	404marciogustavo
+	gustavo404marcio
+	gustavomarcio404
+	marcio404gustavo
+	marciogustavo404
+
+#### Continúe a execução normalmente...
+Ao final da execução, você terá uma lista similar a essa:
+
+	https://instagram.com/404gustavomarcio
+	https://instagram.com/404marciogustavo
+	https://instagram.com/gustavo404marcio
+	https://instagram.com/gustavomarcio404
+	https://instagram.com/marcio404gustavo
+	https://instagram.com/marciogustavo404
+
+serão adicionadas mais funções no futuro, você mesmo pode modificar o codigo da forma que quiser, ou esperar pelas novas atualizações!
