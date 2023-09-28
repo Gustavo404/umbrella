@@ -1,24 +1,23 @@
 # umbrella
 
-[![ShellScript Bash](https://img.shields.io/badge/ShellScript-Bash-blue)](url) [![Licença](https://img.shields.io/badge/Licen%C3%A7a-GPL%202.0-yellow)](https://github.com/gustavo404/umbrella/blob/main/LICENSE) [![Youtube](https://img.shields.io/badge/Youtube-Gustavo404-red.svg)](https://youtube.com/gustavo404)
+[![ShellScript Bash](https://img.shields.io/badge/ShellScript-Bash-blue)](url)
+[![Licença](https://img.shields.io/badge/Licen%C3%A7a-GPL%202.0-yellow)](https://github.com/gustavo404/umbrella/blob/main/LICENSE)
+[![Youtube](https://img.shields.io/badge/Youtube-Gustavo404-red.svg)](https://youtube.com/gustavo404)
 
-Turn keywords into lists of possible profiles on websites.
-<br>
-(or anything you need similar to this)
+transforma argumetos em listas de urls para o instagram
 
-Dependencias
-----
+## Depends
 
 A unica dependencia do Umbrella é o crunch
-
+	```bash
 	sudo apt install crunch -y
-
-Uso
-----
-
+	```
+## Uso
+	```bash
 	bash umbrella.sh
+	```
 
-#### Informe as palavras chave:
+### Informe as palavras chave:
 ex:.	marcio gustavo 404 <br>
 Você terá uma lista com as combinações similar a essa:
 
@@ -29,7 +28,7 @@ Você terá uma lista com as combinações similar a essa:
 	marcio404gustavo
 	marciogustavo404
 
-#### Continúe a execução normalmente...
+### Continúe a execução normalmente...
 Ao final da execução, você terá uma lista similar a essa:
 
 	https://instagram.com/404gustavomarcio
